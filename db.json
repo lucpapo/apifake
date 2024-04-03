@@ -1,4 +1,23 @@
 {
+
+
+  "experiencia" : [
+{ "empresa": "ADN Tecnologia de Sistemas", 
+   "cargo": "Analista de Sistemas", 
+  "periodo" : "01/2000 a 12/2022",
+  "responsabilidades"  : [
+        {
+      "id": 1,
+      "title": "Programador i"
+    },
+       {
+      "id":2,
+      "title": "Programador 2"
+    }
+  ]
+}
+
+  ],
   "habilidades": [
     {
       "id": 1,
