@@ -1,45 +1,39 @@
 {
   "curriculos": [
     {
-      "id":"1", 
-      "nome": "Luciano Nascimento dos Santos",
-      "email": "papo@adn.com.br",
-      "telefone": "(71) 98850-0099",
+      "nome": "Joao Silva Souza",
+      "email": "joao@gmail.com.br",
+      "telefone": "71 98850-0099", 
+       "redeSocial": [
+        {
+          "nome": "github",
+          "url": "http://www.github.com/lucpapo",
+          "iconeUrl": "http://www.github.com/github.ico"
+        }
+      ],
       "experiencia": [
         {
-          "empresa": "ADN Tecnologia de Sistemas",
-          "cargo": "Analista de Sistemas",
-          "periodo": "01/2000 a 12/2022",
-          "responsabilidades": [
-            {
-              "id": 1,
-              "title": "Programador i"
-            },
-            {
-              "id": 2,
-              "title": "Programador 2"
-            }
-          ]
+          "cargo": "Estagiario",
+          "empresa": "Adn Tecnologia ",
+          "periodo": "01/2000 a 12/2000",
+          "atividades": "nonononono "
+        }
+      ],
+      "escolaridade": [
+        {
+          "Entidade": "Escola XPTO",
+          "Curso": "Excel Basico",
+          "periodo": "01/2000 a 12/2000",
+          "atividades": "nonononono "
         }
       ],
       "habilidades": [
         {
+          "titulo": "php",
           "id": 1,
-          "title": "C#"
-        },
-        {
-          "id": 2,
-          "title": "PHP"
-        },
-        {
-          "id": 3,
-          "title": "ASP"
-        },
-        {
-          "id": 4,
-          "title": "JAVA"
+          "pontuacao": 5
         }
-      ]
+      ]  
     }
   ]
   
