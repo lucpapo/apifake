@@ -1,9 +1,22 @@
 {
-    "posts": [
+    "habilidades": [
       {
         "id": 1,
-        "title": "hello"
+        "title": "C#"
+      },
+              {
+        "id": 2,
+        "title": "PHP"
       }
+              {
+        "id": 3,
+        "title": "ASP"
+      }
+              {
+        "id": 4,
+        "title": "JAVA"
+      }
+        
     ],
     "profile": {
       "name": "typicode"
