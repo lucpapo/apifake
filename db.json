@@ -1,6 +1,7 @@
 {
   "curriculos": [
     {
+      "id": 1, 
       "nome": "Joao Silva Souza",
       "email": "joao@gmail.com.br",
       "telefone": "71 98850-0099", 
@@ -17,6 +18,12 @@
           "empresa": "Adn Tecnologia ",
           "periodo": "01/2000 a 12/2000",
           "atividades": "nonononono "
+        },
+        {
+          "cargo": "Programador",
+          "empresa": "Adn Tecnologia ",
+          "periodo": "01/2001 a 12/2001",
+          "atividades": "nonononono "
         }
       ],
       "escolaridade": [
@@ -31,6 +38,11 @@
         {
           "titulo": "php",
           "id": 1,
+          "pontuacao": 5
+        },
+        {
+          "titulo": "netcore",
+          "id": 2,
           "pontuacao": 5
         }
       ]  
