@@ -1,24 +1,23 @@
 {
-    "habilidades": [
-      {
-        "id": 1,
-        "title": "C#"
-      },
-              {
-        "id": 2,
-        "title": "PHP"
-      },
-              {
-        "id": 3,
-        "title": "ASP"
-      },
-              {
-        "id": 4,
-        "title": "JAVA"
-      }
-        
-    ],
-    "profile": {
-      "name": "typicode"
+  "habilidades": [
+    {
+      "id": 1,
+      "title": "C#"
+    },
+    {
+      "id": 2,
+      "title": "PHP"
+    },
+    {
+      "id": 3,
+      "title": "ASP"
+    },
+    {
+      "id": 4,
+      "title": "JAVA"
     }
+  ],
+  "profile": {
+    "name": "typicode"
   }
+}
