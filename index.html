@@ -96,8 +96,12 @@ a:active {
         crossorigin="anonymous"></script>
     <script>
 
-var requestURL =
-  "https://my-json-server.typicode.com/lucpapo/apifake/curriculos/2";
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get('id');
+
+var requestURL = `https://my-json-server.typicode.com/lucpapo/apifake/curriculos/${id}`;
+
+ 
 var request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "json";
