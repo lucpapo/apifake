@@ -5,6 +5,7 @@
       "nome": "Joao Silva Souza",
       "email": "joao@gmail.com.br",
       "telefone": "71 98850-0099",
+      "urlProfile" : "", 
       "bio" : "",
       "redeSocial": [
         {
@@ -47,54 +48,8 @@
           "pontuacao": 5
         }
       ]
-    },
-   {
-    "id": 2,
-    "nome": "Maria Silva Souza",
-    "email": "maria@gmail.com.br",
-    "telefone": "71 98850-0099",
-    "redeSocial": [
-      {
-        "nome": "github",
-        "url": "http://www.github.com/lucpapo",
-        "iconeUrl": "http://www.github.com/github.ico"
-      }
-    ],
-    "experiencia": [
-      {
-        "cargo": "Estagiario",
-        "empresa": "Adn Tecnologia ",
-        "periodo": "01/2000 a 12/2000",
-        "atividades": "nonononono "
-      },
-      {
-        "cargo": "Programador",
-        "empresa": "Adn Tecnologia ",
-        "periodo": "01/2001 a 12/2001",
-        "atividades": "nonononono "
-      }
-    ],
-    "escolaridade": [
-      {
-        "Entidade": "Escola XPTO",
-        "Curso": "Excel Basico",
-        "periodo": "01/2000 a 12/2000",
-        "atividades": "nonononono "
-      }
-    ],
-    "habilidades": [
-      {
-        "titulo": "php",
-        "id": 1,
-        "pontuacao": 5
-      },
-      {
-        "titulo": "netcore",
-        "id": 2,
-        "pontuacao": 5
-      }
-    ]
-  } 
+    }
+    
     
 
   ]
