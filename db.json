@@ -1,10 +1,12 @@
 {    
   "curriculos": [
     {
-      "id": 1,
+      "id": "lucasborges",
       "nome": "Joao Silva Souza",
       "email": "joao@gmail.com.br",
       "telefone": "71 98850-0099",
+      "urlProfile" : "", 
+      "bio" : "",
       "redeSocial": [
         {
           "nome": "github",
@@ -28,8 +30,8 @@
       ],
       "escolaridade": [
         {
-          "Entidade": "Escola XPTO",
-          "Curso": "Excel Basico",
+          "entidade": "Escola XPTO",
+          "curso": "Excel Basico",
           "periodo": "01/2000 a 12/2000",
           "atividades": "nonononono "
         }
@@ -46,6 +48,7 @@
           "pontuacao": 5
         }
       ]
+ 
     },
    {
     "id": 2,
@@ -100,6 +103,7 @@
       }
     ]
   } 
+ 
     
 
   ]
