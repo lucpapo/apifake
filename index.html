@@ -6,23 +6,22 @@
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
+            a:link { 
+            text-decoration: none; 
+            color: white;
+            } 
+            a:visited { 
+            text-decoration: none; 
+            } 
+            a:hover { 
+            text-decoration: none; 
+            } 
+            a:active { 
+            text-decoration: none; 
+            }
 
-a:link { 
-  text-decoration: none; 
-  color: white;
-} 
-a:visited { 
-  text-decoration: none; 
-} 
-a:hover { 
-  text-decoration: none; 
-} 
-a:active { 
-  text-decoration: none; 
-}
 
-
-</style>
+        </style>
     </head>
     <body>
 
@@ -71,11 +70,12 @@ a:active {
 
         <section>
             <h2>Educação</h2>
-            <article>
-                <h3>Nome da Instituição</h3>
-                <p><strong>Curso:</strong> Nome do curso</p>
-                <p><strong>Ano de Conclusão:</strong> AAAA</p>
-            </article>
+            <div id="loadEd">
+                <img src="https://i.gifer.com/ZKZg.gif"
+                    width="200px" />
+            </div>
+            <span id="educacao" style="display:none">
+            </span>
         </section>
 
         <section>
@@ -95,11 +95,20 @@ a:active {
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
         crossorigin="anonymous"></script>
     <script>
-
+        const ArtigoEscolaridade = function(escolaItem){
+            var artigo = 
+                    `<article>
+                    <h3>${escolaItem.Entidade}<h3>
+                    <p><strong>Curso:</strong> ${escolaItem.Curso}<p>
+                    <p><strong>Período:</strong> ${escolaItem.periodo} <p>
+                    <p><strong>Atividades:</strong> ${escolaItem.atividades}<p>
+                    </article>`;
+            return artigo;
+        }
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get('id');
 
-var requestURL = `https://my-json-server.typicode.com/lucpapo/apifake/curriculos/${id}`;
+var requestURL = `https://my-json-server.typicode.com/LucasTBorges/apifake/curriculos/${id}`;
 
  
 var request = new XMLHttpRequest();
@@ -109,6 +118,14 @@ request.send();
 
 request.onload = function () {
   var dados = request.response;
+    var escolaridade = "";
+    dados.escolaridade.forEach((element) => {
+        var artigo =ArtigoEscolaridade(element);
+        console.log(artigo);
+        escolaridade += artigo;
+    })
+    $("#educacao").html(escolaridade);
+    
    
   dados.habilidades.forEach((element) => {
     console.log(element.title);
@@ -124,6 +141,8 @@ request.onload = function () {
     $("#aguardeHabilidade").hide();
     $("#loaderHeader").hide();
     $("#showHeader").show();
+    $("#loadEd").hide();
+    $("#educacao").show();
 
      
   }, 1000);
