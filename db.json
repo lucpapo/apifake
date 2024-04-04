@@ -1,7 +1,7 @@
 {    
   "curriculos": [
     {
-      "id": "lucasborges",
+      "id": 1,
       "nome": "Joao Silva Souza",
       "email": "joao@gmail.com.br",
       "telefone": "71 98850-0099",
