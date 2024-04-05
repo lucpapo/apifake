@@ -68,6 +68,37 @@
           "id": 4,
           "pontuacao": 4
         }
+      ],
+      "idiomas": [
+        {
+          "id":1,
+          "nome": "Português",
+          "nivel": "Nativo"
+        },
+        {
+          "id": 2,
+          "nome": "Inglês",
+          "nivel": "Avançado"
+        },
+        {
+          "id": 3,
+          "nome": "Espanhol",
+          "nivel": "Básico"
+        }
+      ],
+      "interesses": [
+        {
+          "id": 1,
+          "nome": "Jogos"
+        },
+        {
+          "id": 2,
+          "nome": "Programação"
+        },
+        {
+          "id": 3,
+          "nome": "Sair com amigos"
+        }
       ]
     },
     {

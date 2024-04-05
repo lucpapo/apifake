@@ -7,7 +7,15 @@ class Curriculo {
         console.log(  this.requestURL)
     }
 
-    
+    getItemInteresse(interesse){
+        return`<li>${interesse}</li>`
+    }
+
+    builderInteresses(interesses){
+        interesses.forEach((interesse)=>{
+            $("interesses").append(this.getItemInteresse(interesse));
+        })
+    }
     getItemIdioma(idioma){
         return `<li>${idioma.nome} (${idioma.nivel})</li>`;
     }
