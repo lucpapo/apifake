@@ -7,6 +7,18 @@ class Curriculo {
         console.log(  this.requestURL)
     }
 
+    
+    getItemIdioma(idioma){
+        return `<li>${idioma.nome} (${idioma.nivel})</li>`;
+    }
+
+    builderIdioma(idiomas){
+        idiomas.forEach((idioma) => {
+            $("#idiomas".append(this.getItemIdioma));
+        })
+
+    }
+
     getItemSocial(rede){
         return `<li>
                     <img class="iconeRede" alt="Ícone do ${rede.nome}" src="${rede.iconeUrl}">
