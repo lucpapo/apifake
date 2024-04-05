@@ -7,13 +7,22 @@ class Curriculo {
         console.log(  this.requestURL)
     }
 
+    getItemProjeto(projeto){
+        return `<li>${projeto.descritivo}</li>`
+    }
+
+    builderProjetos(projetos){
+        projetos.forEach((projeto)=>{
+            $("#projetos").append(this.getItemProjeto(projeto));
+        })
+    }
     getItemInteresse(interesse){
-        return`<li>${interesse}</li>`
+        return`<li>${interesse.nome}</li>`
     }
 
     builderInteresses(interesses){
         interesses.forEach((interesse)=>{
-            $("interesses").append(this.getItemInteresse(interesse));
+            $("#interesses").append(this.getItemInteresse(interesse));
         })
     }
     getItemIdioma(idioma){
@@ -22,15 +31,15 @@ class Curriculo {
 
     builderIdioma(idiomas){
         idiomas.forEach((idioma) => {
-            $("#idiomas".append(this.getItemIdioma));
+            $("#idiomas").append(this.getItemIdioma(idioma));
         })
 
     }
 
     getItemSocial(rede){
         return `<li>
-                    <img class="iconeRede" alt="Ícone do ${rede.nome}" src="${rede.iconeUrl}">
-                    <a href="${rede.url}">${rede.nome}</a>
+                    <img href= "${rede.url}" class="iconeRede" alt="Ícone do ${rede.nome}" src="${rede.iconeUrl}"/>
+                    <a class="linkRedes" href="${rede.url}">${rede.nome} (${rede.url})</a>
                 </li>`
     }
 
@@ -128,6 +137,9 @@ class Curriculo {
             that.builderHabilidade(that.dados.habilidades);
             that.builderDadosCurriculo(that.dados);
             that.builderSocial(that.dados.redeSocial);
+            that.builderIdioma(that.dados.idiomas);
+            that.builderInteresses(that.dados.interesses);
+            that.builderProjetos(that.dados.projetos);
         }
     }
 
