@@ -7,6 +7,22 @@ class Curriculo {
         console.log(  this.requestURL)
     }
 
+    builderProfile(urlProfile){
+        if (urlProfile !== undefined){
+            $("#foto").attr("src",urlProfile);
+        } else{
+            $("#foto").attr("src","https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-High-Quality-Image.png");
+        }
+    }
+
+    getItemBio(bio){
+        return `<p>${bio}</p>`;
+    }
+     
+    builderBio(bio){
+        $("#bio").append(this.getItemBio(bio))
+    }
+
     getItemEscolaridade( escolaItem ) {
         return `<article>
                     <h3>${escolaItem.entidade}</h3>
@@ -72,6 +88,8 @@ class Curriculo {
         this.request.onload = function () {
             that.dados = this.response;
             console.log( that.dados );
+            that.builderProfile(that.dados.urlProfile)
+            that.builderBio(that.dados.bio);
             that.builderEscolaridade(that.dados.escolaridade);
             that.builderExperiencia(that.dados.experiencia);
             that.builderHabilidade(that.dados.habilidades);
