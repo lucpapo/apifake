@@ -112,6 +112,10 @@ a:active {
     width: 200px;
   }
 
+  .iconeRede {
+    width: 50px;
+  }
+
   @keyframes rotate {
     from {
       transform: rotate(0deg);

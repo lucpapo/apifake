@@ -7,6 +7,19 @@ class Curriculo {
         console.log(  this.requestURL)
     }
 
+    getItemSocial(rede){
+        return `<li>
+                    <img class="iconeRede" alt="Ícone do ${rede.nome}" src="${rede.iconeUrl}">
+                    <a href="${rede.url}">${rede.nome}</a>
+                </li>`
+    }
+
+    builderSocial(redes){
+        redes.forEach((rede) => {
+            $("#redes").append(this.getItemSocial(rede))
+        })
+    }
+
     builderProfile(urlProfile){
         if (urlProfile !== undefined){
             $("#foto").attr("src",urlProfile);
@@ -94,6 +107,7 @@ class Curriculo {
             that.builderExperiencia(that.dados.experiencia);
             that.builderHabilidade(that.dados.habilidades);
             that.builderDadosCurriculo(that.dados);
+            that.builderSocial(that.dados.redeSocial);
         }
     }
 
