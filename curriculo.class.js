@@ -7,12 +7,10 @@ class Curriculo {
         console.log(  this.requestURL)
     }
 
- 
-
     getItemEscolaridade( escolaItem ) {
         return `<article>
-                    <h3>${escolaItem.Entidade}</h3>
-                    <p><strong>Curso:</strong> ${escolaItem.Curso}<p>
+                    <h3>${escolaItem.entidade}</h3>
+                    <p><strong>Curso:</strong> ${escolaItem.curso}<p>
                     <p><strong>Período:</strong> ${escolaItem.periodo} <p>
                     <p><strong>Atividades:</strong> ${escolaItem.atividades}<p>
                     </article>`;
