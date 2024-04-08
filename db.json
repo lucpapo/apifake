@@ -10,12 +10,12 @@
       "redeSocial": [
         {
           "nome": "Linkedin",
-          "url": "linkedin.com/in/lucas-teixeiraborges/",
+          "url": "https://www.linkedin.com/in/lucas-teixeira-borges/",
           "iconeUrl": "https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"
         },
         {
           "nome": "Github",
-          "url": "github.com/LucasTBorges",
+          "url": "https://www.github.com/LucasTBorges",
           "iconeUrl": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
         }
       ],
@@ -49,7 +49,7 @@
       ],
       "habilidades": [
         {
-          "titulo": "python",
+          "titulo": "Python",
           "id": 1,
           "pontuacao": 8
         },
@@ -71,19 +71,22 @@
       ],
       "idiomas": [
         {
-          "id":1,
+          "id": 1,
           "nome": "Português",
-          "nivel": "Nativo"
+          "nivel": "Nativo",
+          "pontuacao": 5
         },
         {
           "id": 2,
           "nome": "Inglês",
-          "nivel": "Avançado"
+          "nivel": "Avançado",
+          "pontuacao": 4
         },
         {
           "id": 3,
           "nome": "Espanhol",
-          "nivel": "Básico"
+          "nivel": "Básico",
+          "pontuacao": 2
         }
       ],
       "interesses": [
@@ -98,6 +101,24 @@
         {
           "id": 3,
           "nome": "Sair com amigos"
+        }
+      ],
+      "projetos": [
+        {
+          "id": 1,
+          "descritivo": "Visualizador de funções implícitas em Python utilizando quadtrees"
+        },
+        {
+          "id": 2,
+          "descritivo": "Aplicação web com React, um simulador de escalonamento de processos num sistema operacional"
+        },
+        {
+          "id": 3,
+          "descritivo": "Blog em React com integração com o CMS Prismic"
+        },
+        {
+          "id": 4,
+          "descritivo": "Sistema com Next.js que simula a compra de ingressos para um festival, com autenticação utilizando o NextAuth"
         }
       ]
     },
@@ -168,6 +189,45 @@
           "id": "6",
           "pontuacao": 7
         }
+      ],
+      "idiomas": [
+        {
+          "nome": "Inglês",
+          "id": 1,
+          "nivel": "básico"
+        },
+        {
+          "nome": "espanhol",
+          "id": 2,
+          "nivel": "basico"
+        },
+        {
+          "nome": "Portugês",
+          "id": "3",
+          "nivel": "nativo"
+        }
+      ],
+      "interesses": [
+        {
+          "nome": "video-game",
+          "id": 1
+        },
+        {
+          "nome": "programar",
+          "id": 2
+        },
+        {
+          "nome": "Comer guloseimas",
+          "id": "3"
+        }
+      ],
+      "projetos": [
+        {
+          "descritivo": "Site Simples em HTML CSS e JavaScript"
+        },
+        {
+          "descritivo": "CRUD em Spring BOOT"
+        }
       ]
     },
     {
@@ -175,13 +235,18 @@
       "nome": "Thiago Silvany de Azevedo",
       "email": "thiagosilvany00@gmail.com",
       "telefone": "71 99175-0118",
-      "urlProfile": "",
+      "urlProfile": "https://avatars.githubusercontent.com/u/126682447?v=4",
       "bio": "Sou atualmente um programador em início de carreira, buscando desenvolver habilidades em front-end, back-end e banco de dados. Atualmente estou cursando o 3º semestre do curso de Análise e Desenvolvimento de Sistemas na UNIFACS e também estou estagiando na área de desenvolvimento na ADN Tecnologia.",
       "redeSocial": [
         {
-          "nome": "github",
+          "nome": "Github",
           "url": "https://github.com/ThiagoAzeva",
-          "iconeUrl": "http://www.github.com/github.ico"
+          "iconeUrl": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+        },
+        {
+          "nome": "Linkedin",
+          "url": "www.linkedin.com/in/thiago-azevedo-b03b48183",
+          "iconeUrl": "https://openvisualfx.com/wp-content/uploads/2019/10/linkedin-icon-logo-png-transparent.png"
         }
       ],
       "experiencia": [
@@ -202,7 +267,8 @@
         {
           "entidade": "Unifacs",
           "curso": "Analise e desenvolvimento de sistemas",
-          "periodo": "01/2023 a 06/2025"
+          "periodo": "01/2023 a 06/2025",
+          "atividades": "O objetivo central do curso de graduação em Tecnologia em Análise e Desenvolvimento de Sistemas é a elaboração, produção, análise, planejamento e implementação de sistemas de informação. Uma das principais atividades desse curso é a programação de computadores e o desenvolvimento de softwares voltados para aprimorar o desempenho dos recursos da máquina."
         }
       ],
       "habilidades": [
@@ -230,6 +296,40 @@
           "titulo": "html",
           "id": 1,
           "pontuacao": 3
+        }
+      ],
+      "interesses": [
+        {
+          "id": 1,
+          "nome": "Jogos de tabuleiro"
+        },
+        {
+          "id": 2,
+          "nome": "RPG de Mesa"
+        },
+        {
+          "id": 3,
+          "nome": "Praticar esportes"
+        }
+      ],
+      "idiomas": [
+        {
+          "id": 1,
+          "nome": "Portugues",
+          "nivel": "Nativo",
+          "pontuacao": 10
+        },
+        {
+          "id": 2,
+          "nome": "Inglês",
+          "nivel": "Intermediario",
+          "pontuacao": 6
+        }
+      ],
+      "projetos": [
+        {
+          "id": 1,
+          "descritivo": "Uma aplicação web para apresentar nossas habilidades e conhecimentos, apresentar meios de contato, alem de apresentar um pouco da pessoa."
         }
       ]
     }
