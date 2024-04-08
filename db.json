@@ -10,12 +10,12 @@
       "redeSocial": [
         {
           "nome": "Linkedin",
-          "url": "linkedin.com/in/lucas-teixeiraborges/",
+          "url": "https://www.linkedin.com/in/lucas-teixeira-borges/",
           "iconeUrl": "https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png"
         },
         {
           "nome": "Github",
-          "url": "github.com/LucasTBorges",
+          "url": "https://www.github.com/LucasTBorges",
           "iconeUrl": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
         }
       ],
@@ -49,7 +49,7 @@
       ],
       "habilidades": [
         {
-          "titulo": "python",
+          "titulo": "Python",
           "id": 1,
           "pontuacao": 8
         },
@@ -67,6 +67,58 @@
           "titulo": "Java",
           "id": 4,
           "pontuacao": 4
+        }
+      ],
+      "idiomas": [
+        {
+          "id": 1,
+          "nome": "Português",
+          "nivel": "Nativo",
+          "pontuacao": 5
+        },
+        {
+          "id": 2,
+          "nome": "Inglês",
+          "nivel": "Avançado",
+          "pontuacao": 4
+        },
+        {
+          "id": 3,
+          "nome": "Espanhol",
+          "nivel": "Básico",
+          "pontuacao": 2
+        }
+      ],
+      "interesses": [
+        {
+          "id": 1,
+          "nome": "Jogos"
+        },
+        {
+          "id": 2,
+          "nome": "Programação"
+        },
+        {
+          "id": 3,
+          "nome": "Sair com amigos"
+        }
+      ],
+      "projetos": [
+        {
+          "id": 1,
+          "descritivo": "Visualizador de funções implícitas em Python utilizando quadtrees"
+        },
+        {
+          "id": 2,
+          "descritivo": "Aplicação web com React, um simulador de escalonamento de processos num sistema operacional"
+        },
+        {
+          "id": 3,
+          "descritivo": "Blog em React com integração com o CMS Prismic"
+        },
+        {
+          "id": 4,
+          "descritivo": "Sistema com Next.js que simula a compra de ingressos para um festival, com autenticação utilizando o NextAuth"
         }
       ]
     },
@@ -136,6 +188,45 @@
           "titulo": "sql",
           "id": "6",
           "pontuacao": 7
+        }
+      ],
+      "idiomas": [
+        {
+          "nome": "Inglês",
+          "id": 1,
+          "nivel": "básico"
+        },
+        {
+          "nome": "espanhol",
+          "id": 2,
+          "nivel": "basico"
+        },
+        {
+          "nome": "Portugês",
+          "id": "3",
+          "nivel": "nativo"
+        }
+      ],
+      "interesses": [
+        {
+          "nome": "video-game",
+          "id": 1
+        },
+        {
+          "nome": "programar",
+          "id": 2
+        },
+        {
+          "nome": "Comer guloseimas",
+          "id": "3"
+        }
+      ],
+      "projetos": [
+        {
+          "descritivo": "Site Simples em HTML CSS e JavaScript"
+        },
+        {
+          "descritivo": "CRUD em Spring BOOT"
         }
       ]
     },
