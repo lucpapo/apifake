@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Currículo de [Seu Nome]</title>
+        <title>Currículo</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +9,21 @@
     </head>
     <body>
         <div class="container">
-            <div class="jumbotron">
-                <h1 class="display-4" id="nome">Olá, mundo!</h1>
-                <p class="lead" id="bio">Este é um simples componente jumbotron para chamar mais atenção a um determinado conteúdo ou informação.</p>
-                <hr class="my-4">
-                <p>Ele usa classes utilitárias para tipografia e espaçamento de conteúdo, dentro do maior container.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a>
+            <div class="row">
+                <div class="col-4">
+                    <img style="display:none" id="foto" src="https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-High-Quality-Image.png">
+                </div>
+                <div class="col">
+                    <div class="jumbotron">
+                        <h1 class="display-4" id="nome"></h1>
+                        <p class="lead" id="bio"></p>
+                        <hr class="my-4">
+                        <p>Ele usa classes utilitárias para tipografia e espaçamento de conteúdo, dentro do maior container.</p>
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a>
+                    </div>
+                </div>
             </div>
+            
         </div>
         
         <div id="preloader">
@@ -28,16 +36,11 @@
                 <p id="telefone"> </p>
             </div>
         </header>
-        <img style="display:none" id="foto" src="https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-High-Quality-Image.png">
         
         <section>
             <h2>Redes Sociais</h2>
             <ul id="redes">
             </ul>
-        </section>
-        
-        <section>
-            <h2>Perfil Profissional</h2>
         </section>
 
         <section>
@@ -45,11 +48,11 @@
             <span id="experiencia">
             </span>
         </section>
-
+            
         <section>
             <h2>Educação</h2>
-            <span id="educacao">
-            </span>
+            <ul class="list-group" id="educacao">
+            </ul>
         </section>
         <section>
             <h2>Habilidades</h2>

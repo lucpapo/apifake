@@ -127,13 +127,18 @@
       "nome": "Daniel Victor Lima Resende",
       "email": "dvictoresende@gmail.com",
       "telefone": "71 986158306",
-      "urlProfile": "",
+      "urlProfile": "https://avatars.githubusercontent.com/u/84295858?v=4",
       "bio": "Olá, Meu nome é Daniel e meu objetivo é ser programador Java Full Stack",
       "redeSocial": [
         {
           "nome": "github",
           "url": "http://www.github.com/DanielVict0r",
-          "iconeUrl": "http://www.github.com/github.ico"
+          "iconeUrl": "https://www.macobserver.com/wp-content/uploads/2019/05/workfeatured-GitHub-2.png"
+        },
+        {
+          "nome": "Linkedin",
+          "url": "https://br.linkedin.com/",
+          "iconeUrl": "https://th.bing.com/th/id/OIP.waOtRAV99hCXTCS_RvbK6QHaGp?rs=1&pid=ImgDetMain"
         }
       ],
       "experiencia": [
@@ -171,25 +176,26 @@
         },
         {
           "titulo": "html",
-          "id": "3",
+          "id": 3,
           "pontuacao": 7
         },
         {
           "titulo": "css",
-          "id": "4",
+          "id": 4,
           "pontuacao": 7
         },
         {
           "titulo": "javascript",
-          "id": "5",
+          "id": 5,
           "pontuacao": 6
         },
         {
           "titulo": "sql",
-          "id": "6",
+          "id": 6,
           "pontuacao": 7
         }
       ],
+
       "idiomas": [
         {
           "nome": "Inglês",
@@ -203,14 +209,18 @@
         },
         {
           "nome": "Portugês",
-          "id": "3",
+          "id": 3,
           "nivel": "nativo"
         }
+        
       ],
+
+
       "interesses": [
         {
           "nome": "video-game",
           "id": 1
+          
         },
         {
           "nome": "programar",
@@ -218,17 +228,21 @@
         },
         {
           "nome": "Comer guloseimas",
-          "id": "3"
+          "id": 3
         }
+        
       ],
+
       "projetos": [
         {
-          "descritivo": "Site Simples em HTML CSS e JavaScript"
+          "descritivo": "Site Simples em HTML CSS e JavaScript"   
         },
         {
           "descritivo": "CRUD em Spring BOOT"
         }
       ]
+
+
     },
     {
       "id": "thiagoazevedo",

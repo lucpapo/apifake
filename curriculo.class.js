@@ -66,12 +66,14 @@ class Curriculo {
     }
 
     getItemEscolaridade( escolaItem ) {
-        return `<article>
-                    <h3>${escolaItem.entidade}</h3>
-                    <p><strong>Curso:</strong> ${escolaItem.curso}<p>
-                    <p><strong>Período:</strong> ${escolaItem.periodo} <p>
+        return `<li class="list-group-item list-group-item-action flex-column align-items-start">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h3>${escolaItem.entidade}</h3>
+                        <p class="text-muted">${escolaItem.periodo} <p>
+                    </div>
+                    <p><strong>Curso:</strong> ${escolaItem.curso}<p>       
                     <p><strong>Atividades:</strong> ${escolaItem.atividades}<p>
-                    </article>`;
+                </li>`;
 
     }
 
