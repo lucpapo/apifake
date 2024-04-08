@@ -3,7 +3,7 @@ class Curriculo {
     request = new XMLHttpRequest();
     requestURL = "";
     constructor( id ) {
-        this.requestURL = `https://my-json-server.typicode.com/LucasTBorges/apifake/curriculos/${id}`;
+        this.requestURL = `http://localhost:3000/curriculos/${id}`;
         console.log(  this.requestURL)
     }
 
