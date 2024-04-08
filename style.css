@@ -112,14 +112,22 @@ a:active {
   }
 
   #foto {
-    width: 200px;
+    width: 100%;
   }
-
+  a:link{
+    color: black;
+  }
+  .ficha{
+    margin: 0 !important;
+    padding: 20px !important;
+  }
   .iconeRede {
     width: 50px;
+    padding-right: 10px;
   }
-  .linkRede {
+  .linkRede{
     color: black !important;
+    text-decoration: none !important;
   }
 
   @keyframes rotate {

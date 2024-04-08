@@ -37,8 +37,8 @@ class Curriculo {
     }
 
     getItemSocial(rede){
-        return `<li>
-                    <img href= "${rede.url}" class="iconeRede" alt="Ícone do ${rede.nome}" src="${rede.iconeUrl}"/>
+        return `<li class="list-group-item">
+                    <img href= "${rede.url}" class="iconeRede border-right" alt="Ícone do ${rede.nome}" src="${rede.iconeUrl}"/>
                     <a class="linkRedes" href="${rede.url}">${rede.nome} (${rede.url})</a>
                 </li>`
     }
