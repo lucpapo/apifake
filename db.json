@@ -235,13 +235,18 @@
       "nome": "Thiago Silvany de Azevedo",
       "email": "thiagosilvany00@gmail.com",
       "telefone": "71 99175-0118",
-      "urlProfile": "",
+      "urlProfile": "https://avatars.githubusercontent.com/u/126682447?v=4",
       "bio": "Sou atualmente um programador em início de carreira, buscando desenvolver habilidades em front-end, back-end e banco de dados. Atualmente estou cursando o 3º semestre do curso de Análise e Desenvolvimento de Sistemas na UNIFACS e também estou estagiando na área de desenvolvimento na ADN Tecnologia.",
       "redeSocial": [
         {
-          "nome": "github",
+          "nome": "Github",
           "url": "https://github.com/ThiagoAzeva",
-          "iconeUrl": "http://www.github.com/github.ico"
+          "iconeUrl": "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png"
+        },
+        {
+          "nome": "Linkedin",
+          "url": "www.linkedin.com/in/thiago-azevedo-b03b48183",
+          "iconeUrl": "https://openvisualfx.com/wp-content/uploads/2019/10/linkedin-icon-logo-png-transparent.png"
         }
       ],
       "experiencia": [
@@ -262,7 +267,8 @@
         {
           "entidade": "Unifacs",
           "curso": "Analise e desenvolvimento de sistemas",
-          "periodo": "01/2023 a 06/2025"
+          "periodo": "01/2023 a 06/2025",
+          "atividades": ""
         }
       ],
       "habilidades": [
@@ -290,6 +296,40 @@
           "titulo": "html",
           "id": 1,
           "pontuacao": 3
+        }
+      ],
+      "interesses": [
+        {
+          "id": 1,
+          "nome": "Jogos de tabuleiro"
+        },
+        {
+          "id": 2,
+          "nome": "RPG de Mesa"
+        },
+        {
+          "id": 3,
+          "nome": "Praticar esportes"
+        }
+      ],
+      "idiomas": [
+        {
+          "id": 1,
+          "nome": "Portugues",
+          "nivel": "Nativo",
+          "pontuacao": 10
+        },
+        {
+          "id": 2,
+          "nome": "Inglês",
+          "nivel": "Intermediario",
+          "pontuacao": 6
+        }
+      ],
+      "projetos": [
+        {
+          "id": 1,
+          "descritivo": "Uma aplicação web para apresentar nossas habilidades e conhecimentos, apresentar meios de contato, alem de apresentar um pouco da pessoa."
         }
       ]
     }
